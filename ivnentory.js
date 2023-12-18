@@ -6,7 +6,6 @@ new MutationObserver(() => {
           _0x181547.style.backgroundColor = '#692c8c';
           _0x181547.addEventListener("click", function () {
             document.getElementById("WMNn").value = _0x181547.innerText;
-            document.getElementById("WMNn").value += 'a';
             document.getElementById("WMNn").focus();
           });
         }
@@ -20,13 +19,11 @@ new MutationObserver(() => {
           if (document.getElementById("WMNn").value.includes("/trade accept ")) {
             setTimeout(() => {
               document.getElementById('WMNn').value = "/trade confirm";
-              document.getElementById('WMNn').value += 'a';
               document.getElementById("WMNn").focus();
             }, 0x64);
             setTimeout(() => {
               if (document.getElementById("WMNn").value.includes("/trade accept ")) {
                 document.getElementById("WMNn").value = "/trade confirm";
-                document.getElementById("WMNn").value += 'a';
                 document.getElementById("WMNn").focus();
               }
             }, 0x64);
